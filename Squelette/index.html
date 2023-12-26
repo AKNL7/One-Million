@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+    
+
     <title>One Million Lines</title>
 </head>
 
@@ -26,19 +28,30 @@
 
     <header>
         
-        <nav class="navbar bg-black text-white">
-         
-            <div class="container-fluid">
-
-                <a class="navbar-brand ms-5 text-white"><strong>ONEMILLION</strong>LINES_</a>
-
-                <div class="d-flex me-3">
-                    <div class="p-2">WHO WE ARE</div>
-                    <div class="p-2">GET INVOLVED</div>
-                </div>
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container ">
+              <a class="navbar-brand" href="#"><strong>ONEMILLION</strong>LINES_</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+        
+                    <a class="nav-link" href="#">WHO WE ARE <span class="sr-only"></span></a>
+                  
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">GET INVOLVED</a>
+                  </li>
+                  
+               
+                </ul>
              
-                </div>     
-            </nav>
+              </div>
+            </div>
+          </nav>
           
                 
     
@@ -58,11 +71,31 @@
                 taking the challenge and our goal is to write 1,000,000 lines of code_</h4>
 
 
-
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-danger btn-lg text-center text-white ">Learn more>></button>
-            </div>
-        </div>
+             
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-lg text-center text-white" data-bs-toggle="modal" data-bs-target="#modalId">
+                        Learn more>>
+                  </button>
+                </div>
+        
+    
+            <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HtM6LFcmx6Q?si=llc47MUnQzORcPJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
         <div class="d-flex justify-content-center p-5 g-col-6">
             <img src="../Squelette/images/code.png">
@@ -152,7 +185,7 @@
 
     <footer class="mb-0 p-5 g-0 lh-1">
 
-        <p class="text-white fs-4"><strong>ONEMILLIONS</strong>LINES_</p>
+        <p class="text-white fs-5"><strong>ONEMILLIONS</strong>LINES_</p>
         <p class="text-white fs-6">One Community_ One Million Lines of Code_</p>
 
      <div class="scroll">
@@ -190,10 +223,9 @@
 
 
 
-   <script src="smoothscroll.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyNo0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+   <script src="./js/smoothscroll.js"></script>
+ 
+
 </body>
 
 </html>
