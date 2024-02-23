@@ -52,3 +52,20 @@
     align-items: right;
 }
 
+@media (max-width: 35rem) {
+
+.who {
+    margin-top: 130px;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+ 
+}
+}
